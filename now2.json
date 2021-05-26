@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "nextjs",
+  "builds": [{ "src": "next.config.json", "use": "@now/next" }],
+  "env": {
+    "IS_NOW": "true"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "nextjs",
+  "builds": [{ "src": "next.config.json", "use": "@now/next" }],
+  "env": {
+    "IS_NOW": "true"
+  },
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/asd", "dest": "/asd" },
+    { "src": "/asd/zxc", "dest": "/zxc" }
+  ]
+}
